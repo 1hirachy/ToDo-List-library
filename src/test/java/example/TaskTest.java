@@ -19,4 +19,9 @@ public class TaskTest {
         assertTrue(task.isComplete());
     }
 
+    @Test
+    void incompleteTask_shouldSetIncompleteStatus(){
+        Task task = new Task("Random Task");
+        assertFalse(task.isComplete());
+    }
 }

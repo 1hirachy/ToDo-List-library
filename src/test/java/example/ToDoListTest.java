@@ -32,8 +32,4 @@ public class ToDoListTest {
         toDoList.markTaskAsComplete(0);
         assertTrue(toDoList.getTask().get(0).isComplete());
     }
-
-
-
-
 }

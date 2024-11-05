@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af3b22a-cb17-42aa-8b4b-f7dcfeb0c8e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/TaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/ToDoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/ToDoListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +62,8 @@
       <recent name="C:\Users\hira_\IdeaProjects\ToDo-List\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToDoListTest.markTestAsComplete_shouldMarkTaskAsComplete">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.Main" />
+  <component name="RunManager" selected="JUnit.TaskTest.setComplete_shouldSetCompleteStatus">
+    <configuration name="TaskTest.setComplete_shouldSetCompleteStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="To-DoList" />
       <extension name="coverage">
         <pattern>
@@ -71,6 +71,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.TaskTest" />
+      <option name="METHOD_NAME" value="setComplete_shouldSetCompleteStatus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskTest.setComplete_shouldSetCompleteStatus" />
         <item itemvalue="JUnit.ToDoListTest.markTestAsComplete_shouldMarkTaskAsComplete" />
         <item itemvalue="JUnit.ToDoListTest.removeTask_shouldRemoveTaskFromList" />
         <item itemvalue="JUnit.ToDoListTest.removeTask_shouldRemovetaskFromList" />
         <item itemvalue="JUnit.ToDoListTest.addTask_souldAssTaskToList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
